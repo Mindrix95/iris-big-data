@@ -17,8 +17,8 @@ hdfs dfs : Uniquement hdfs
 Commande :
 hadoop fs -mkdir [-p] <paths>
 Exemple :
-hadoop fs mkdir / monDossier
-hadoop fs mkdir /user/monDossier1 /user/monDossier2 /user/monDossier3
+hadoop fs -mkdir / monDossier
+hadoop fs -mkdir /user/monDossier1 /user/monDossier2 /user/monDossier3
 L’option -p est nécessaire si le dossier parent n’existe pas lors de la création d’un sous répertoire.
 ```
 
